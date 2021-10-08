@@ -1,0 +1,11 @@
+1.controlled component:- the form data is handled by the state within the component. The state within the component serves as “the single source of truth” for the input elements that are rendered by the component.
+Uncontrolled components:- act more like traditional HTML form elements. The data for each input element is stored in the DOM, not in the component.
+2.A side effect is the modification of state through the invocation of a function or expression. In order for a function or expression to have a side effect, the state it modifies should be out of its local scope. Such as passing an object by reference through functions to be mutated and performing I/O operations.
+3.the data stored in the parent component is called a state and the snapshot of such data which is passed to its children components via read-only is called a prop.
+4. *While Reuse logic between components
+   The re-usability and abstraction were introduced with, Higher order component and RenderProp Component in react. It is a really very useful and good thing.
+But not for some cases. React context, its provider and consumer components.
+These things also introduce abstraction and invisible to the developers.
+   *Has Huge components:-the application, you will have experience with a thousand lines react component and your logic split into different lifecycle methods. So it makes very difficult for developers to understand the flow of the logic while reviewing.
+   *Confusing classes;-JavaScript method like map, reducer, filter, functional composition, side effect and some terms like immutability. These functional programming concepts come from JavaScript to react.
+
